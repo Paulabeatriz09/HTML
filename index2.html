@@ -7,7 +7,7 @@
     <title>Tabelas</title>
 </head>
 
-<body>
+<body bgcolor="bbd0ff">
     <table>
         <tr>
             <!--1 linha-->
@@ -32,6 +32,50 @@
             <td>28 anos</td>
         </tr>
     </table>
+    <br>
+    <form>
+        <label for="nome">nome</label>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+        <br>
+        <br>
+        <label for="data-nascimento">Data-nascimento</label>
+        <input type="date" name="data nascimento" id="data-nascimento">
+        <br>
+        <br>
+        <label for="endereco">Endereco</label>
+        <input type="text" name="endereco" id="endereco">
+        <br>
+        <br>
+        <label for="num-casa">Nº casa</label>
+        <input type="number" name="num-casa" id="num-casa">
+        <br>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">cidade:
+            <option value="Olinda">olinda</option>
+            <option value="Jaboatão">jaboatão</option>
+            <option value="rec" selected>Recife</option>></option>
+            <option value="Camaragibe">camaragibe</option>
+        </select>
+        <br><br>
+
+        <label for="estado_civil">Estado civil:</label>
+        <input type="radio" name="estado_civil" id="solteiro">solteiro
+        <input type="radio" name="estado_civil" id="casado">casado
+        <input type="radio" name="estado_civil" id="viuvo">viuvo
+
+        <br><br>
+        <label for="preferencias">Preferencias:</label><br>
+        <input type="checkbox" name="preferencias" id="preferencia1">Tecnologia <br>
+        <input type="checkbox" name="preferencias" id="preferencia2">Esporte <br>
+        <input type="checkbox" name="preferencias" id="preferencia3">Musica <br><br><br>
+
+
+        <input type="submit" value="Enviar">
+        <button>Limpar</button>
+
+
+    </form>
 </body>
 
 </html>
